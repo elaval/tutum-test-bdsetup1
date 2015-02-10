@@ -14,6 +14,10 @@
  Date: 02/10/2015 14:14:17 PM
 */
 
+DROP DATABASE IF EXISTS `resultados`; 
+CREATE DATABASE `resultados`; 
+USE `resultados`;
+
 SET NAMES utf8;
 SET FOREIGN_KEY_CHECKS = 0;
 
